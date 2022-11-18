@@ -1,5 +1,6 @@
 package net.intelie.challenges;
 
+import net.intelie.challenges.event.Event;
 import net.intelie.challenges.event.eventiterator.EventIterator;
 import net.intelie.challenges.event.eventstore.EventStore;
 

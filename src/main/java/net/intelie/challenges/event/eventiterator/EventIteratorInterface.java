@@ -1,6 +1,6 @@
 package net.intelie.challenges.event.eventiterator;
 
-import net.intelie.challenges.Event;
+import net.intelie.challenges.event.Event;
 
 /**
  * An iterator over an event collection.

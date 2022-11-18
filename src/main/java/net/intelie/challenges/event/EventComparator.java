@@ -1,4 +1,4 @@
-package net.intelie.challenges;
+package net.intelie.challenges.event;
 
 import java.util.Comparator;
 

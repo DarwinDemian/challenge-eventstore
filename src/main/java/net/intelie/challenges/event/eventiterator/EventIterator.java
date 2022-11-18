@@ -1,6 +1,6 @@
 package net.intelie.challenges.event.eventiterator;
 
-import net.intelie.challenges.Event;
+import net.intelie.challenges.event.Event;
 
 import java.util.Iterator;
 import java.util.SortedSet;

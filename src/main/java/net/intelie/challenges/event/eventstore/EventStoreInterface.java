@@ -1,6 +1,6 @@
 package net.intelie.challenges.event.eventstore;
 
-import net.intelie.challenges.Event;
+import net.intelie.challenges.event.Event;
 import net.intelie.challenges.event.eventiterator.EventIteratorInterface;
 
 /**

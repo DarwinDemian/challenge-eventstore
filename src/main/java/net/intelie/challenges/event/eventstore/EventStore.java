@@ -1,15 +1,13 @@
 package net.intelie.challenges.event.eventstore;
 
-import net.intelie.challenges.Event;
-import net.intelie.challenges.EventComparator;
+import net.intelie.challenges.event.Event;
+import net.intelie.challenges.event.EventComparator;
 import net.intelie.challenges.event.eventiterator.EventIterator;
 
 import java.util.Collections;
-import java.util.Set;
 import java.util.SortedSet;
 import java.util.TreeSet;
 import java.util.concurrent.ConcurrentSkipListMap;
-import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 public final class EventStore implements EventStoreInterface {
