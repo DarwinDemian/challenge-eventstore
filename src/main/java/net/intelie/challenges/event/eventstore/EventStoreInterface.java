@@ -1,4 +1,7 @@
-package net.intelie.challenges;
+package net.intelie.challenges.event.eventstore;
+
+import net.intelie.challenges.Event;
+import net.intelie.challenges.event.eventiterator.EventIteratorInterface;
 
 /**
  * An abstraction of an event store.
@@ -7,7 +10,7 @@ package net.intelie.challenges;
  * server, etc. For this challenge, you should implement an in-memory
  * event event store.
  */
-public interface EventStore {
+public interface EventStoreInterface {
     /**
      * Stores an event
      *
@@ -33,5 +36,5 @@ public interface EventStore {
      * {@param type} and timestamp between {@param startTime}
      * (inclusive) and {@param endTime} (exclusive).
      */
-    EventIterator query(String type, long startTime, long endTime);
+    EventIteratorInterface query(String type, long startTime, long endTime) throws Exception;
 }

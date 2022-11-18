@@ -1,9 +1,12 @@
-package net.intelie.challenges;
+package net.intelie.challenges.event.eventiterator;
+
+import net.intelie.challenges.Event;
 
 /**
  * An iterator over an event collection.
  */
-public interface EventIterator extends AutoCloseable {
+public interface EventIteratorInterface extends AutoCloseable {
+
     /**
      * Move the iterator to the next event, if any.
      *
